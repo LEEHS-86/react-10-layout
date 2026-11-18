@@ -16,7 +16,7 @@ function App() {
     };
 
     return (
-        <ThemeProvider theme={theme === "light" ? LightTheme : DarkTheme}>
+        <ThemeProvider theme={theme === "light" ? LightTheme : DarkTheme }>
             <GlobalStyle />
             <RouterProvider router={AppRouter(toggleTheme)} />
         </ThemeProvider>
