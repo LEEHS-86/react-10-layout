@@ -27,6 +27,7 @@ const NavRight = styled.div`
 `;
 
 function Header({ toggleTheme }: { toggleTheme: () => void }) {
+
     return (
         <Head>
             <Nav>
