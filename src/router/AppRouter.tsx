@@ -7,7 +7,6 @@ import SignUp from "../pages/auth/SignUp.tsx";
 import AuthLayout from "../layouts/AuthLayout.tsx";
 import { type Dispatch, type SetStateAction } from "react";
 
-// 지도
 const AppRouter = (
     toggleTheme: () => void,
     theme: "light" | "dark",
