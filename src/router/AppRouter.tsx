@@ -23,7 +23,7 @@ const AppRouter = (
             ],
         },
         {
-            element: <MainLayout toggleTheme={toggleTheme} theme={theme}, setTheme{setTheme}/>,
+            element: <MainLayout toggleTheme={toggleTheme}/>,
             path: "/",
             children: [
                 { index: true, element: <Home /> }, // Home => "/"
